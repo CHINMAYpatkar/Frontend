@@ -1,0 +1,94 @@
+body{
+  color: rgb(255, 255, 255);
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+}
+
+.container{
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  height: 50vh;
+  width: 100vw;
+  gap: 10px;
+}
+
+.col_main1{
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
+  height: 100%;
+  width: 60%;
+  gap: 10px;
+}
+.col_main2{
+  background-color: rgb(168, 29, 29);
+  height: 100%;
+  width: 20%;
+
+}
+.col_main3{
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  gap: 10px;
+
+}
+.col_main1_row1{
+  display: flex;
+  flex-direction: row;
+  height: 50%;
+  gap: 10px;
+}
+
+.col_main1_row2{
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(255, 255, 255);
+  height: 50%;
+  gap: 10px;
+}
+
+.col_main1_row2_col1{
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  gap: 10px;
+}
+
+.row{
+  display: flex;
+  flex-direction: row;
+}
+.cell1{
+  background-color: blueviolet;
+  width: 40%;
+}
+.cell2{
+  background-color: rgb(99, 93, 105);
+  width: 60%;
+}
+.cell3{
+  background-color: blueviolet;
+  height: 50%;
+}
+.cell4{
+  background-color: blueviolet;
+  height: 50%;
+}
+.cell5{
+  background-color: rgb(135, 124, 145);
+  width: 80%;
+}
+.cell6{
+  background-color: blueviolet;
+}
+.cell7{
+  background-color: blueviolet;
+  height: 75%;
+  width: 100%;
+}
+.cell8{
+  background-color: blueviolet;
+  height: 25%;
+  width: 100%;
+}

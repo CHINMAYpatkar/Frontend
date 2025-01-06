@@ -1,0 +1,138 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: aliceblue;
+    background-color: black;
+}
+
+.container{
+    background-color: brown;
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-areas: "Right_container Left_Container";
+    grid-template-columns: 2fr 1fr;
+    gap: 10px;
+}
+.Left_Container{
+    display: grid;
+    grid-template-areas: "lr ll";
+    width: 100%;
+    height: 100%;
+    background-color: brown;
+    gap: 10px;
+}
+.ll{
+    display: grid;
+    grid-area: ll;
+    grid-template-areas: "G" "H";
+    /* grid-template-rows: 3fr 1fr; */
+    height: 100%;
+    grid-template-rows: 2fr 1fr;
+    gap: 10px;
+    /* margin-left: 10px; */
+}
+.G{
+    grid-area: G;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(99, 214, 132);
+}
+.H{
+    grid-area: H;
+    height: 100%;
+    width: 100%;
+    background-color: aqua;
+}
+.lr{
+    display: flex;
+    flex-direction: column;
+    grid-area: lr;
+    grid-template-areas: "F" "F";
+    grid-template-rows: auto;
+    height: 100%;
+    /* grid-template-rows: 2fr 1fr; */
+    /* gap: 10px; */
+    /* margin-left: 10px; */
+}
+.F{
+grid-area: F;
+height: 100%;
+width: 100%;
+background-color: chartreuse;
+}
+.Right_container{
+    display: grid;
+    grid-area: Right_container;
+    grid-template-areas: "top" "bottom";
+    /* grid-template-rows: 3fr 1fr; */
+    height: 100%;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+    /* margin-left: 10px; */
+}
+.top{
+    display: grid;
+    grid-area: top;
+    grid-template-areas: "A B";
+    grid-template-columns: 2fr 3fr;
+    gap: 10px;
+}
+.A{
+    grid-area: A;
+    height: 100%;
+    width: 100%;
+    background-color: chartreuse;
+}
+.B{
+    grid-area: B;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(228, 85, 157);
+}
+.bottom{
+    display: grid;
+    grid-area: bottom;
+    grid-template-areas: "bottom_left bottom_right";
+    grid-template-columns: 1fr 4fr;
+    gap: 10px;
+    text-align: center;
+}
+.bottom_right{
+    
+    grid-area: bottom_right;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(90, 76, 67);
+    text-align: center;
+}
+.bottom_left{
+    display: grid;
+    grid-area: bottom_left;
+    grid-template-areas: "C" "D";
+    width: 100%;
+    gap: 10px;
+    grid-template-rows: auto auto;
+}
+.C{
+    
+    grid-area: C;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(230, 217, 103);
+    text-align: center;
+}
+.D{
+    
+    grid-area: D;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(9, 28, 241, 0.827);
+    text-align: center;
+}

@@ -1,0 +1,122 @@
+body{
+    color: rgb(255, 255, 255);
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .container{
+    margin-top: 240px;
+    margin-right: 200px;
+    margin-left: 200px;
+    display: flex;
+    background-color: rgb(253, 251, 251);
+    height: 50vh;
+    width: 100vw;
+    gap: 10px;
+  }
+  
+  .col_main1{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(253, 250, 250);
+    height: 100%;
+    width: 60%;
+    gap: 10px;
+  }
+  .col_main2{
+     /* margin-top: 10px;  */
+     display: flex;
+     flex-direction: column;
+   
+    background-color: rgb(252, 250, 250);
+    height: 100%;
+    width: 20%;
+  
+  }
+  .col_main3{
+    margin-top:10px;
+    margin-right:10px;
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    gap: 10px;
+  
+  }
+  .col_main1_row1{
+    margin-top: 10px;
+    margin-left:10px;
+    display: flex;
+    flex-direction: row;
+    height: 50%;
+    gap: 10px;
+  }
+  
+  .col_main1_row2{
+    
+    margin-left:10px;
+    margin-bottom:10px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(255, 255, 255);
+    height: 50%;
+    gap: 10px;
+  }
+  
+  .col_main1_row2_col1{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    gap: 10px;
+  }
+  
+  .row{
+    display: flex;
+    flex-direction: row;
+  }
+  .cell1{
+  
+    background-color: rgb(127, 124, 129);
+    width: 40%;
+  }
+  .cell2{
+    background-color:rgb(127, 124, 129);
+    width: 60%;
+  }
+  .cell3{
+    background-color:rgb(127, 124, 129);
+    height: 50%;
+  }
+  .cell4{
+    background-color: rgb(127, 124, 129);
+    height: 50%;
+  }
+  .cell5{
+    background-color: rgb(127, 124, 129);
+    width: 80%;
+  }
+  .cell6{
+    background-color:rgb(127, 124, 129);
+  }
+  .cell7{
+    background-color: rgb(127, 124, 129);
+    height: 75%;
+    width: 100%;
+  }
+  .cell8{
+    background-color:rgb(127, 124, 129);
+    height: 25%;
+    width: 100%;
+    margin-bottom:10px;  
+  }
+  .cell9{
+    /* height:100%; */background-color: rgb(127, 124, 129);
+    width: 100%;
+    height: 100%;
+    /* margin-bottom:10px; */
+    margin: 10px 0; 
+  }
+  
